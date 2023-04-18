@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <main class="container">
+        <h2>Formulário de Cadastro</h2>
+
+        <form>
+            <div class="inputs">
+                <label>
+                    <h4>Nome:</h4>
+                </label>
+                <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Nome Completo" required>
+            </div>
+            <div class="inputs">
+                <label>
+                    <h4>E-mail:</h4>
+                </label>
+                <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+            </div>
+            <div class="inputs">
+                <label>
+                    <h4>Telefone:</h4>
+                </label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" required>
+            </div>
+            <div class="inputs">
+                <label>
+                    <h4>CPF:</h4>
+                </label>
+                <input type="text" name="cpf" id="cpf" placeholder="___.___.___-__" required>
+            </div>
+            <div class="inputs">
+                <label>
+                    <h4>Endereço:</h4>
+                </label>
+                <input type="text" name="enderecoCompleto" id="enderecoCompleto" placeholder="Endereço Completo" required>
+            </div>
+            <div class="inputs">
+                <label>
+                    <h4>CEP:</h4>
+                </label>
+                <input type="text" name="cep" id="cep" placeholder="00000-000" required>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <p>Nos siga nas redes sociais - <a href="https://www.instagram.com/thiisantooss/" target="_blank">@thiisantooss</a></p>
+        </form>
+    </main>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
